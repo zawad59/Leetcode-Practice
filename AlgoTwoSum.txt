@@ -1,0 +1,4 @@
+When iterating the list, subtract elements from the target and push them to the hashmap only if the difference
+from the target is not already contained in the hashmap. This way when it finds the difference in the hashmap,
+the solution will return the index of the difference from the hashmap and also the currently traversing index.
+This solution has linear time complexity and also does not need to traverse the entire list.
