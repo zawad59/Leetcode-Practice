@@ -1,0 +1,8 @@
+The key idea behind solving this problem is all the letters have to be exact same count in the two strings.
+Also, if two strings are not of same length, they can not be anagrams. 
+So, we store in two dictionaries where
+the key is the letter and value is their count. 
+We have to make sure if that letter is not there, then the 
+hashmap returns 0. 
+Then we match all the letters in both dictionaries with the exact count. Same hashmap returning
+0 logic applies here.
