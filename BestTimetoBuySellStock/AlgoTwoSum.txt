@@ -1,0 +1,4 @@
+Use the two pointer approach here. Iterate the right pointer till the length of the array. In order to
+make profit, the left pointer value always have to be lower than the right pointer value. So, if the left
+pointer is at a place greater thann the right pointer, we take the left pointer to the right pointer. And increase
+the right pointer anyways. We update the maxProfit when the left pointer is smaller than right one.
