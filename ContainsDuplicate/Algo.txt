@@ -1,0 +1,4 @@
+Hashmap Approach: While traversing the list, if the element is not in the hashmap, insert it into the
+hashmap and if the element is found, return True. Key thing to note here in the coding aspect, insert into 
+the hashmap by using the elements as the key, because when you search for the element, the search will be
+performed by key not by value.
