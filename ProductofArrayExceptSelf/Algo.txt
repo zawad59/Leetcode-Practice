@@ -1,0 +1,3 @@
+First calculate the left product of all indexes and store them in left subarray
+Next calculate the right product of all indexes and store them in right subarray
+Multiply the left subarray with the right subarray to generate the final output array
