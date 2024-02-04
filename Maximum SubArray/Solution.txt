@@ -1,0 +1,6 @@
+Initialize the sum to the first element
+Iterate through each element in the list to sum up the elements
+Check if after adding the new element the currentSum exceeds the previous sum
+Finally check if  the CurrentSum is the maximum sum as there could be one element larger than summing up all
+elements and mostly due to the presence of negative numbers in the list
+        
