@@ -1,0 +1,5 @@
+Traverse forward and save the Max multiplication result when 0 encountered
+Traverse backward and do the same.
+Compare the max between forward and back traversal
+Backward pass is needed because of edge cases like [3, 2, -3, -4, 3]
+Also take care of edge cases where multiple 0's occur: [2 3 1 4 -2 -5 0 0]
