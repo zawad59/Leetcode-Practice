@@ -1,0 +1,18 @@
+***Hard Problem***
+
+1. First find out which portion of the sorted array we are in by comparing the left most value of array
+with the middle value
+2. Now see if the target is lower than the leftmost element and lower than middle value; If both conditions
+true then search in the right portion of the array.
+3. Also see if the target is higher than the leftmost element and higher than middle value; If both conditions
+true then search in the right portion of the array.
+4. If 2 and 3 don't suffice then search in left portion of the array.
+
+5. Do the same when we are on the right sorted portion of the array.
+6. See if the target is less than or equal to rightmost element and lower than middle value; If both conditions
+true then search in the right portion of the array.
+7. If condition 6 not true, searh in left portion of the array.
+
+
+***Intuitive Problem***
+***Modified Binary Search Algorithm***
