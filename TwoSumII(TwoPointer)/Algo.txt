@@ -1,0 +1,9 @@
+Here we use the sorted input array to our advantage
+Set the Left pointer at the beginning of array
+Set the right pointer at the end
+Add the element at the left ptr to the element at the right ptr
+If sum greater than target, understand that we need to go lower, so find lower element from the end of the list
+If sum less than target, understand we need to go higher, so find higher element from the left ptr or starting element
+
+**Process will work because problem statement describes guarantedd two elements**
+**Intuitive Solution**
