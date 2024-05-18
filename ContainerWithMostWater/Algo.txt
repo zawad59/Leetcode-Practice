@@ -1,0 +1,7 @@
+Math Based Problem
+Find out the Maximum Area of the Container that can hold the water
+If the height or width of the container is less than one another, then water may spill
+It is important to adjust the container with respect to height or width.
+
+*Intuitive Problem solved with left and right pointer approach
+*Increase left pointer and decrease right pointer because the whole idea is maximizing the area of the container
