@@ -1,0 +1,4 @@
+Keep two pointers one as current to traverse the linked list
+Another pointer to establish connection with the previous one
+Destroy the connection of the head ptr
+Move forward in this process
