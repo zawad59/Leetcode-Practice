@@ -1,0 +1,4 @@
+Use Slow and Fast Pointer
+Slow pointer moves 1 step at a time like normal
+Fast Pointer moves 2 steps at a time.
+If there is cycle, they will always coincide
