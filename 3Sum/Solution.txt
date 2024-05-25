@@ -1,0 +1,15 @@
+**Legit Hard Problem**
+
+Address the problem by first doing two sum and two sum II
+Find 1st value out of the triplets and then do two sum for rest of the two positions
+
+**For removing duplicates: check the first value of the triplet with next value after sorting so that duplicate
+triplets don't occur.
+
+We can remove the duplicates by using another list, but solution faces TLE Error
+
+** Look at the test cases for TLE Error: Most of them have same values all over the array.
+To deal with this problem, update the left pointer to the next if the value at the left ptr is same as it's 
+previous neighbor
+
+** Both checking the i with next and left ptr with next are used to remove duplicate triplets
