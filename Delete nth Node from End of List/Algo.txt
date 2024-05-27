@@ -1,0 +1,11 @@
+**Not solved in a very time-efficient approach rather test case based solve**
+
+Traverse the linked list to find out total number of nodes present
+Subtract the nth node to be deleted from total no. of nodes to find the target node from the front
+Just remove the target nodes connection from it's previous node
+
+** Problem occurs when there are two nodes and n = 2 and we have to remove 1st node from the front **
+
+Here print out the nodes or the temporary assigned nodes to find the exact conncection manuever
+Keep one node for traversal, assign that node in the initialization phase to use the "Call by Reference" method
+of linked list manuever
