@@ -1,0 +1,3 @@
+Remove all non-alpha numeric characters from original string
+Remove all whitespaces and change letters to lowercase in original string
+reverse the string with .join empty string and compare the two strings
