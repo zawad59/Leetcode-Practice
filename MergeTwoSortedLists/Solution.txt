@@ -1,0 +1,9 @@
+Initialize an empty node
+Compare the values of the two lists, initialize the next pointer of the empty node to the value that is 
+less between two lists
+Iterate the lists and iterate the empty list
+
+Take care of the edge cases where values may be present in one list and not the other
+
+** Time Complexity: O(n + m) -> n and m being size of list 1 and list 2
+** Space Complexity: O(1) -> Merging done in place, no extra memory was needed.
