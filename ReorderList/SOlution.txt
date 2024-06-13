@@ -1,0 +1,14 @@
+**Legit Hard Problem**
+
+1st insert all the elements of the linked list into a stack (Last in First Out Mechanism comes to good
+use here)
+
+Run a loop till half the length of stack
+**Till half because we need to merge the 2nd half of the linked list in a reverse way with 1st half**
+
+Inside the for-loop make the connections and traversal to reorder according to the provided output
+
+Make sure to point the final list element pointer to None
+
+**Time Complexity: Stack used and for loop till N/2; hence O(n)**
+**Space Complexity: No In Place list used apart from the linked list, so O(n)
