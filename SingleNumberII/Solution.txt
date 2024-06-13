@@ -1,0 +1,6 @@
+**Easy Problem**
+
+1. Search if element in the list is in the dictionary, if it is not keep it as one; else increase the counter of
+the elements.
+
+2. Enumerate the list to find the value = 1 and return the key
