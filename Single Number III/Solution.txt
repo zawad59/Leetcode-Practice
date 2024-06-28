@@ -1,0 +1,11 @@
+**Legit Hard Problem **
+
+1. The solution needs us to solve it in O(1) space complexity, so appending elements in an array is not a solution by Hashmaps.
+2. Find the result of XOR of all elements in the array.
+3. The differing bit at first set to 1, then we need to find where exactly is the differing bit by AND operation with the XOR Result, the condition for
+if statement has to be carefully written.
+4. Once we find the exact differing bit, then iterate through the array to put each element in the array into two different places based on the differing bit.
+5. The way to return the elements from the boxes/places is by XOR operation updated values in the box with the elements in the number array.
+6. Step 5 needs to be done because from the two different boxes, we need to find the unique elements occurring just once in the list.
+
+***Needs to be revisited ***
