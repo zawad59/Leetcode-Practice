@@ -1,0 +1,7 @@
+1. Iterate through all digits in the given number.
+2. Mod the number by 2 so that if 1 comes as reminder, that means that's a set bit.
+3. Right Shift after getting the set bit to remove the previously found set bit at step 2 from the equation and also as a condition to end the while loop.
+
+Time Complexity: O(logn) because the loop is running on each digit of a number with highest (2^32 - 1) constraint. Number of bits required to represent a decimal number in binary is proportional to the Logarithm(2 Base) of that number.
+
+Space Complexity: O(1) Constant Space
