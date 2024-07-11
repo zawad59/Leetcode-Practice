@@ -1,0 +1,9 @@
+***Sliding Window Problem***
+
+1. The whole idea is to update the occurrence of a character in the HashMap appropriately. If any instance of a character is found again (Duplicate Occurrence), then update the left pointer with the updated position of the duplicate character in the HashMap.
+
+2. Manage the MaxLen in a way that the left pointer is always at the updated position in the HashMap so that a string like "abcabcbb" does not yield
+length 5 but yields length 3.
+
+**Good Practice for Sliding Window**
+**Have to look at it again**
