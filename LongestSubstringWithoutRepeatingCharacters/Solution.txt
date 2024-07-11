@@ -7,3 +7,6 @@ length 5 but yields length 3.
 
 **Good Practice for Sliding Window**
 **Have to look at it again**
+
+Time Complexity: Iterating through array and Sliding Window : O(n)
+Space Complexity: O(n)
