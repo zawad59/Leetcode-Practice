@@ -1,0 +1,13 @@
+1. Initialize a HashMap where the values will be a list instead of an integer or a string.
+2. Unlike regular insertion of HashMap, we need to append to the value list.
+3. For step 2, the key will be the sorted string and the value will be the unsorted list.
+4. Reason for doing that is keeping track of all the strings that can make the sorted string.
+5. Sorted(str) creates just a list with the characters sorted in ascending order. Need to convert the sorted characters into string again because hashmap
+keys can't accept list.
+
+
+**Time Complexity: O(N * M * Log(M))
+Sorting a string with length M takes M * log(M) time if there are M characters in the string. Since the parent list has N elements, so overall time complexity would be O(N* M * log (M))
+
+**Space Complexity: O(N * M)
+Again, M is the no. of chars in each string and N is the total no. of strings in the list. 
