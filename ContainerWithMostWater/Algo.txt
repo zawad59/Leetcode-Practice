@@ -5,3 +5,6 @@ It is important to adjust the container with respect to height or width.
 
 *Intuitive Problem solved with left and right pointer approach
 *Increase left pointer and decrease right pointer because the whole idea is maximizing the area of the container
+
+
+The whole idea is to first gravitate towards max Height because a container is a rectangle where this max Height would be representative of the containers length. To do so, we initialize left pointer in the beginning and right pointer at the end. We increment the left pointer if height at left is lower than height at right. We decrement the right pointer if else condition is satisfied. In the process of increasing and decreasing pointers, we calculate the area of the container and store the current max. At the end of the loop where left and right pointer is at the same element, along that way the max area of the container would be found along the way. So, we don't explicitly maximize the difference between right and left as the base of the container.
