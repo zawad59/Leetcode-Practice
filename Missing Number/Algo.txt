@@ -2,4 +2,4 @@ Pretty Simple Solution for a FAANG Interview Question. Identify that n being len
 
 So using the formula n (n+1)/2 to find the sum of N natural numbers would be the first step. Then, we sum all the elements in the list. Then the subtraction of sum of array from n(n+1)/2
 
-would give us the missing number.
+would give us the missing number. Pretty elegant solution with O(n) runtime and O(1) space time complexity
