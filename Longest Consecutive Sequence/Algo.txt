@@ -1,0 +1,5 @@
+Since we are using a dictionary to solve this question, the explanation is oriented towards making it solve in O(n) time.
+
+The key idea here is to store the best consecutive length found at every index in a dictionary. So for the dictionary, the key would be the value of the string i.e. the character at current index
+and the value of that key would be the maximum consecutive length found for it so far. The same process is followed for the element(s) before and after the current string index in question. So, naturally
+for updating the dictionary values for these keys, same process is followed as earlier. The key is storing the updated best length in the dictionary.
