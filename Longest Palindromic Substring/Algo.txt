@@ -1,0 +1,6 @@
+It's important to first understand how we find a palindromic substring from a given string. To do so we first start at every index and move towards it's left and right. This movement is expanded both
+towards it's left and right. When we do that, the larger and larger palindromic substrings are found. If they are not substring or the lengths are smaller, the conditional and the while loop condition
+would take care of that. Finding the length of substring is done by string slicing from left till right pointer.
+
+Edge cases are tricky for this solution. The given string could be either even or odd lengths. So, the initial left, right pointer initialization has to be done accordingly so that for both
+cases, the correct solutions are found out.
