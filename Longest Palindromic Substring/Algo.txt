@@ -4,3 +4,5 @@ would take care of that. Finding the length of substring is done by string slici
 
 Edge cases are tricky for this solution. The given string could be either even or odd lengths. So, the initial left, right pointer initialization has to be done accordingly so that for both
 cases, the correct solutions are found out.
+
+This soln has O(N^2) time and O(1) space complexity
